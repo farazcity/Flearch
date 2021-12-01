@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airlines</title>
+	</head>
+	<body>
+	{%for flight in flights%}
+		<ul>
+			{{flight.id}} {{flight.origin}} {{flight.destination}} {{flight.duration}}
+		</ul>
+	{%endfor%}
+	</body>
+</html>

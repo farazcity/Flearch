@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airlines</title>
+	</head>
+	<body>
+		<form action="{{url_for('book')}}" method="post">
+			<select name=flight_id>
+				{%for flight in flights%}
+					<option value="{{flight.id}}">
+						{{flight.origin}} to {{flight.destination}}
+				{%endfor%}
+			</select>
+			<div></div>
+			Name:
+			<input type=text name=name>
+			<div></div>
+			<input type=submit>
+		</form>
+		<a href="{{url_for('flights')}}">
+			flights
+		</a>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airlines</title>
+	</head>
+	<body>
+		<h1>
+			active flights are
+		</h1>
+		{%for flight in flights%}
+			<ul>
+				{{flight.id}} {{flight.origin}} {{flight.destination}} {{flight.duration}}
+			</ul>
+		{%endfor%}
+		<form action="{{url_for('added')}}" method="post">
+			<dir></dir>
+			enter origin:
+			<dir></dir>
+			<input name="origin">
+			<dir></dir>
+			enter destination:
+			<dir></dir>
+			<input name="destination">
+			<dir></dir>
+			enter duration:
+			<dir></dir>
+			<input name="duration">
+			<dir></dir>
+			<button>submit</button>
+		</form>
+	</body>
+</html>

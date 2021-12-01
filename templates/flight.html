@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airlines</title>
+	</head>
+	<body>
+		<h1>flight</h1>
+		origin:{{flight.origin}}
+		destination:{{flight.destination}}
+		duration:{{flight.duration}}
+
+		<h2>passengers</h2>
+		{%for passenger in passengers%}
+			{{passenger.name}}
+		{%endfor%}
+	</body>
+</html>
