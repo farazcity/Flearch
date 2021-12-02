@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airlines</title>
+		/*<link rel="stylesheet" href="style.css">*/
+
+	</head>
+	<body>
+		<form action="{{url_for('minimum')}}" method="post">
+
+			<div class="form__group field">
+			<input type=text name=source class="form_field" placeholder="Source" id='source'>
+			<label for="source" class="form_label">Source</label>
+      <div></div>
+			<input type=text name=destination class="form_field" placeholder="Destination" id='destination'>
+			<label for="destination" class="form_label">Destination</label>        
+			</div>
+			
+			<div></div>
+			<input class="but" type=submit>
+		</form>
+
+	</body>
+</html>
