@@ -38,7 +38,7 @@ def flight(flight_id):
 
 @app.route("/min")
 def min():
-	return render_template("min.html")
+	return render_template("minimun0.html")
 
 @app.route("/min/minimum")
 def minimum():
@@ -113,4 +113,11 @@ def minimum():
 	sp=obj.shortest_path("destination")
 	
 	return render_template("minimum.html",minimun=sp)
+
+
+
+
+
+
+
 
