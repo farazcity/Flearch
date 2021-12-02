@@ -2,12 +2,13 @@
 <html>
 	<head>
 		<title>airlines</title>
+		<link rel="stylesheets" href="style_flight.css">
 	</head>
 	<body>
 		<h1>flight</h1>
-		origin:{{flight.origin}}
-		destination:{{flight.destination}}
-		duration:{{flight.duration}}
+		<div class="head">origin:</div> {{flight.origin}}
+		<div class="head">destination:</div>{{flight.destination}}
+		<div class="head">duration:</div>{{flight.duration}}
 
 		<h2>passengers</h2>
 		{%for passenger in passengers%}
