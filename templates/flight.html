@@ -11,8 +11,12 @@
 		<div class="head">duration:</div>{{flight.duration}}
 
 		<h2>passengers</h2>
+		
+		<div class="pass">
 		{%for passenger in passengers%}
 			{{passenger.name}}
 		{%endfor%}
+			
+		</div>
 	</body>
 </html>
