@@ -13,9 +13,11 @@
 						{{flight.origin}} to {{flight.destination}}
 				{%endfor%}
 			</select>
-			<div></div>
-			Name:
-			<input type=text name=name>
+			<div class="form__group field">
+			<input type=text name=name class="form_field" placeholder="Name" id='name'>
+			<label for="name" class="form_label">Name</label>
+			</div>
+			
 			<div></div>
 			<input class="but" type=submit>
 		</form>
