@@ -1,0 +1,32 @@
+.lis{
+  list-style:circle inside;
+}
+
+li{
+  color: lightgrey;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-shadow: 2px 2px red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 20px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
