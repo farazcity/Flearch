@@ -33,8 +33,9 @@ p{
   color: #fff;
 }
 
+
 @media (min-width: 768px) {
-  .button-81 {
+  .button{
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
