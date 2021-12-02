@@ -1,0 +1,39 @@
+body {
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+	color: white;
+  /*font: normal 32px/1.6 system-ui, sans-serif;
+	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);*/
+  margin: 3rem;
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;	
+
+}
+
+.head {
+  color: lightgrey;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-shadow: 2px 2px red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 26px;
+}
+
+.pass {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text shadow: none;
+  font family: sans-serif, Arial;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 18px;
+}
