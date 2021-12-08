@@ -1,8 +1,23 @@
-body {
+@import url("https://cdn.pixabay.com/photo/2020/05/25/17/03/travel-5219496_1280.jpg");
+
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2020/05/25/17/03/travel-5219496_1280.jpg");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+/*body {
   background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
 	color: white;
-  /*font: normal 32px/1.6 system-ui, sans-serif;
-	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);*/
+  font: normal 32px/1.6 system-ui, sans-serif;
+	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
   margin: 3rem;
   font-family: 'Poppins', sans-serif; 
   display: flex;
@@ -12,7 +27,7 @@ body {
   min-height: 100vh;
   font-size: 1.5rem;	
 
-}
+}*/
 
 .head {
   color: lightgrey;
