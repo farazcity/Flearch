@@ -6,21 +6,25 @@
 
 	</head>
 	<body>
-		<form action="{{url_for('book')}}" method="post">
-			<select name=flight_id>
-				{%for flight in flights%}
-					<option value="{{flight.id}}">
+		<div class="box">
+			<form action="{{url_for('book')}}" method="post">
+				<span class="text-center">book</span>
+				<div class="input-container">
+					<input type="text" name=name required=""/>
+						<label>Name</label>		
+				</div>
+				<div class="input-container">		
+					<select name=flight_id>
+						{%for flight in flights%}
+							<option value="{{flight.id}}">
 						{{flight.origin}} to {{flight.destination}}
-				{%endfor%}
-			</select>
-			<div class="form__group field">
-			<input type=text name=name class="form_field" placeholder="Name" id='name'>
-			<label for="name" class="form_label">Name</label>
-			</div>
-			
-			<div></div>
-			<button class="but">Submit</button>
-		</form>
+						{%endfor%}
+					</select>
+				</div>
+				<button type="button" class="btn">submit</button>
+			</form>
+		</div>
+
 		<a href="{{url_for('flights')}}">
 			flights
 		</a>
